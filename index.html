@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okadayusuke - Portfolio</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ポートフォリオ</h1>
+        <nav>
+            <a href="#">ホーム</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="section">
+        </section>
+        <section id="projects" class="section">
+            <div class="projects">
+                <div class="project">
+                    <img src="https://imgx.foriio.com/images/store/c9a6694eaacb401affa64441705a3a27.jpg?auto=compress&w=2400" alt="プロジェクト1">
+                    <h3>【無料配布】タイピングゲーム</h3>
+                    <p></p>
+                    <a href="https://github.com/yusukesangoo345/typinggame">配布先を見る</a>
+                    <h2>🏷️タグ</h2>
+                    <button>無料配布</button>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300" alt="プロジェクト2">
+                    <h3>プロジェクト2</h3>
+                    <p>このプロジェクトはレスポンシブデザインに特化しています。</p>
+                    <a href="#">詳細を見る</a>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300" alt="プロジェクト3">
+                    <h3>プロジェクト3</h3>
+                    <p>このプロジェクトはeコマース向けに設計されました。</p>
+                    <a href="#">詳細を見る</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>お問い合わせ</h2>
+            <p>質問やリクエストがあれば、<a href="mailto:example@example.com">こちら</a>からお気軽にご連絡ください。</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 あなたの名前. All Rights Reserved.
+    </footer>
+</body>
+</html>
